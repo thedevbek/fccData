@@ -1,0 +1,361 @@
+[
+	{
+		"question": "What does the acronym \"DOM\" stand for in JavaScript",
+		"answer": "Document Object Model"
+	},
+	{
+		"question": "How do you declare a variable in JavaScript?",
+		"answer": "const, var, and sometimes var"
+	},
+	{
+		"question": "What does the 'typeof' operator return in JavaScript?",
+		"answer": "The data type of a variable"
+	},
+	{
+		"question": "Which built-in function is used to convert a string to an integer in JavaScript?",
+		"answer": "parseInt()...function parses a string and attempts to extract an integer value from it."
+	},
+	{
+		"question": "What are the eight data types?",
+		"answer": "undefined, null, object, boolean, string, symbol, bigint, number."
+	},
+	{
+		"question": "What is a variable?",
+		"answer": "Variables allow computers to store and manipulate data in a dynamic fashion."
+	},
+	{
+		"question": "What is dynamic behavior?",
+		"answer": "The ability of a web page or application to respond and change based on user interactions or other events."
+	},
+	{
+		"question": "What is the assignment operator (=) used for?",
+		"answer": "It takes the value on its right-hand side and assigns it to the variable on its left-hand side. In the statement x = 10;, the value 10 is assigned to the variable x."
+	},
+	{
+		"question": "What does initializing a variable mean?",
+		"answer": "Giving it an initial value when you create or declare the variable."
+	},
+
+	{
+		"question": "What is a string literal?",
+		"answer": "This is a string literal, a piece of text enclosed in quotation marks in a programming language."
+	},
+	{
+		"question": ": What's the initial value of a declared JavaScript variable? What results from mathematical operations or string concatenation involving an undefined variable?",
+		"answer": "Declared JavaScript variables start with an initial value of undefined. If you perform math with an undefined variable, you'll get NaN (Not a Number). String concatenation with an undefined variable yields a string containing --undefined."
+	},
+	{
+		"question": "Is capitalization important in JavaScript variable and function names?",
+		"answer": "Yes, capitalization matters in JavaScript. MYVAR is different from MyVar or myvar. You can even have separate variables with the same name but different casing. To keep things clear, it's best to follow the camelCase convention. In camelCase, multi-word variable names start with lowercase and each subsequent word's first letter is capitalized. This practice enhances readability and helps prevent confusion."
+	},
+	{
+		"question": "What's the issue with using var for variable declarations?",
+		"answer": "The problem with var is that you can easily unintentionally overwrite variables, leading to bugs that are hard to find, especially in larger codebases."
+	},
+	{
+		"question": "How does let address this problem?",
+		"answer": "Unlike var, let prevents accidental overwriting by throwing an error if you try to declare a variable with the same name again, making code more reliable."
+	},
+	{
+		"question": "What is the benefit of using the const keyword for variable declaration?",
+		"answer": "By using const, you create variables with a constant value that cannot be reassigned after initialization. This prevents accidental changes and promotes code stability."
+	},
+	{
+		"question": "How can you increment a variable by one in JavaScript?",
+		"answer": "Use the ++ operator (e.g., i++;) to increment a variable by one. It's equivalent to i = i + 1;."
+	},
+	{
+		"question": "How can you decrement a variable by one in JavaScript?",
+		"answer": "Employ the -- operator (e.g., i--;) to decrement a variable by one. This is the same as i = i - 1;."
+	},
+	{
+		"question": " What is a floating decimal in JavaScript?",
+		"answer": "It's how JavaScript handles numbers with fractions. Works well for most math, but tiny errors can happen with certain decimals due to its binary method."
+	},
+	{
+		"question": "What is a modulus?",
+		"answer": "Modulus is an operation that gives the remainder when you divide two numbers. For example, in 5 % 2, the modulus is 1 because 5 divided by 2 leaves a remainder of 1."
+	},
+	{
+		"question": "How can you determine if a number is even or odd using modulus?",
+		"answer": "You can find out if a number is even or odd by applying the modulus operation. If the result of a number divided by 2 is 0, it's even; if it's 1, it's odd."
+	},
+	{
+		"question": "What does the remainder obtained from the modulus operation represent?",
+		"answer": "The remainder obtained from the modulus operation is what's left over after dividing one number by another. For instance, 5 % 2 equals 1, showing that when 5 is divided by 2, there's a remainder of 1"
+	},
+	{
+		"question": "What's the purpose of the += operator?",
+		"answer": " The += operator combines math and assignment. For example, if myVar is 1 and you do myVar += 5, it's like saying myVar = myVar + 5, making myVar equal 6."
+	},
+	{
+		"question": "How can you change the value of a variable using an assignment?",
+		"answer": "To change a variable's value, you can use assignments. For example, with myVar = myVar + 5, you're increasing the value of myVar by 5."
+	},
+	{
+		"question": "How can you include quotes within a string definition without using backslashes?",
+		"answer": "Instead of using backslashes, you can use template literals enclosed in backticks (`). This allows you to include both single and double quotes within the string without escaping them."
+	},
+	{
+		"question": "What is the purpose of the + operator when used with strings in JavaScript?",
+		"answer": " When the + operator is used with strings in JavaScript, it's called the concatenation operator. It allows you to combine multiple strings into a single string."
+	},
+	{
+		"question": "How can the += operator be used to concatenate strings in JavaScript?",
+		"answer": "The += operator can be used to add a string onto the end of an existing string variable. It's a convenient way to gradually build a string over several lines of code. Example: let message = 'Hello' message += 'world!' Result: message is now Hello, world!"
+	},
+	{
+		"question": "What's important to keep in mind when using concatenation with strings?",
+		"answer": "When concatenating strings, be aware that no spaces are added automatically between concatenated strings. You'll need to add spaces manually if necessary."
+	},
+	{
+		"question": "How can the concatenation operator (+) be used to build a string in JavaScript?",
+		"answer": "The concatenation operator (+) can be used to insert one or more variables into a string you're constructing. This allows you to combine different parts, including variables, into a single string."
+	},
+	{
+		"question": "What's the purpose of using the concatenation operator with variables in a string?",
+		"answer": "By using the concatenation operator (+) with variables, you can dynamically incorporate those variables into a string. This is useful for creating more personalized and dynamic messages."
+	},
+	{
+		"question": "How can variables be appended to a string using the += operator in JavaScript?",
+		"answer": "The += operator can be used to add variables to the end of a string, effectively appending their content to the existing string."
+	},
+	{
+		"question": "What's the significance of the += operator when working with strings and variables?",
+		"answer": "The += operator is a convenient way to extend a string by adding the content of a variable to the end of it. This allows you to create dynamic and changing strings based on the values of variables."
+	},
+	{
+		"question": "How can you determine the length of a string in JavaScript?",
+		"answer": "To find the length of a string in JavaScript, you can use the .length property after the string variable or string literal."
+	},
+	{
+		"question": "How is whitespace treated when calculating the length of a string?",
+		"answer": "Whitespace characters, such as spaces, are also counted when calculating the length of a string. For example, in the string 'Alan Peter', the space between 'Alan' and 'Peter' is included in the length."
+	},
+	{
+		"question": "How can you use bracket notation to access a specific character within a string in JavaScript?",
+		"answer": " Bracket notation allows you to retrieve a character at a particular index within a string. It's important to remember that most programming languages, including JavaScript, use zero-based indexing, which means the first character is at index 0."
+	},
+	{
+		"question": "What does it mean for a string to be immutable in JavaScript?",
+		"answer": "When a string is immutable in JavaScript, it means that once a string is created, its individual characters cannot be changed. You cannot modify specific characters within an existing string."
+	},
+	{
+		"question": " How can you change the content of a string in JavaScript if it's immutable?",
+		"answer": "To modify the content of a string, you need to reassign the entire string with a new value. You cannot directly change individual characters within the string."
+	},
+	{
+		"question": "What does it mean for a string to be immutable in JavaScript?",
+		"answer": "When a string is immutable in JavaScript, it means that once a string is created, its individual characters cannot be changed. You cannot modify specific characters within an existing string."
+	},
+	{
+		"question": "How can you change the content of a string in JavaScript if it's immutable?",
+		"answer": "To modify the content of a string, you need to reassign the entire string with a new value. You cannot directly change individual characters within the string."
+	},
+	{
+		"question": "How can you use bracket notation to access characters at specific positions within a string in JavaScript?",
+		"answer": "Bracket notation allows you to retrieve characters at specific positions within a string by providing the index within square brackets. Keep in mind that indexing starts at 0 in most programming languages, including JavaScript."
+	},
+	{
+		"question": "How can you find the very last letter of a word using brackets?",
+		"answer": "Just subtract one from the word's length and put that number inside brackets after the word. For example, if the word is \"apple,\" the last letter can be found using \"apple[apple.length - 1].\""
+	},
+	{
+		"question": "What's the trick to get the last character of a group of letters using brackets?",
+		"answer": "All you need to do is take the length of the letters, take away one, and use that number inside brackets. So, if you have a group of letters like \"banana,\" the last one is at \"banana[banana.length - 1].\""
+	},
+	{
+		"question": "How do you use brackets to grab the very last piece of a word?",
+		"answer": "Remember, use the length of the word minus one inside the brackets. Imagine you have a word \"grapes,\" then the very last piece is at \"grapes[grapes.length - 1].\""
+	},
+	{
+		"question": "How can you use bracket notation to find the Nth-to-last character in a string?",
+		"answer": "Similar to finding the last character, you can subtract a number from the string's length and use that as an index in the brackets. For instance, to retrieve the third-to-last character of a string like `firstName`, use `firstName[firstName.length - 3]`."
+	},
+	{
+		"question": "Can you explain how to get the value of the third-to-last character in a string using bracket notation?",
+		"answer": "To get the third-to-last character of a string like `firstName`, subtract 3 from the string's length and access the character using `firstName[firstName.length - 3]`. For example, if `firstName` is \"Augusta,\" this would give you the character \"s.\""
+	},
+	{
+		"question": "Give an example of using bracket notation to extract the third-to-last character from a string.",
+		"answer": "Absolutely, here's how you'd do it:\n```javascript\nconst firstName = \"Augusta\";\nconst thirdToLastLetter = firstName[firstName.length - 3];\n```\nIn this case, `thirdToLastLetter` would have the value \"s.\""
+	},
+	{
+		"question": "How do you find the second-to-last character in the `lastName` string using bracket notation?",
+		"answer": "To find the second-to-last character in the `lastName` string, apply the same idea: subtract 1 from the string's length and access the character using `lastName[lastName.length - 2]`."
+	},
+	{
+		"question": "How can you store multiple values in a single variable using JavaScript?",
+		"answer": "You can use JavaScript arrays to store several pieces of data in a single variable."
+	},
+	{
+		"question": "What are the characters used to declare the beginning and end of an array in JavaScript?",
+		"answer": "An opening square bracket '[' is used to start an array declaration, and a closing square bracket ']' is used to end it."
+	},
+	{
+		"question": "How are individual entries separated within a JavaScript array?",
+		"answer": "Individual entries within a JavaScript array are separated by commas."
+	},
+	{
+		"question": "How can you nest one array within another in JavaScript?",
+		"answer": "You can nest arrays within other arrays. This is also called a multi-dimensional array.\n\nExample:\nconst teams = [[\"Bulls\", 23], [\"White Sox\", 45]];"
+	},
+	{
+		"question": "How can you access array data with indexes in JavaScript?",
+		"answer": "Array indexes are used to access data inside arrays. They are written in the same bracket notation as strings, specifying an entry in the array. Arrays use zero-based indexing, so the first element has an index of 0.\n\nExample:\nconst array = [50, 60, 70];\nconsole.log(array[0]);\nconst data = array[1];\n\nThe console.log(array[0]) prints 50, and data has the value 60."
+	},
+	{
+		"question": "Create a variable called myData and set it to equal the first value of myArray using bracket notation.",
+		"answer": "To set a variable myData equal to the first value of myArray using bracket notation, you can do:\n\nconst myData = myArray[0];"
+	},
+
+	{
+		"question": "How are the entries of arrays different from strings in terms of mutability?",
+		"answer": "Unlike strings, the entries of arrays are mutable, meaning they can be changed freely, even if the array was declared with const.\n\nExample:\nconst ourArray = [50, 40, 30];\nourArray[0] = 15;\n\nAfter this, ourArray now has the value [15, 40, 30]."
+	},
+	{
+		"question": "Why is it important to avoid spaces between the array name and the square brackets when accessing array elements?",
+		"answer": "Avoiding spaces between the array name and the square brackets is important to ensure code clarity and readability. Although JavaScript can process spaces in this context, it may confuse other programmers reading your code."
+	},
+	{
+		"question": "How can a multi-dimensional array be conceptualized?",
+		"answer": "A multi-dimensional array can be thought of as an array of arrays. Using brackets to access the array, the first set of brackets refers to the outermost array level, and subsequent pairs of brackets refer to deeper levels of arrays."
+	},
+	{
+		"question": "Could you provide an example of accessing elements in a multi-dimensional array?",
+		"answer": "Certainly! Consider the array 'arr' given as: const arr = [ [1, 2, 3], [4, 5, 6], [7, 8, 9], [[10, 11, 12], 13, 14] ]; In this case, 'subarray' would be equal to [[10, 11, 12], 13, 14], 'nestedSubarray' would be equal to [10, 11, 12], and 'element' would be equal to 11."
+	},
+	{
+		"question": "Why is it important to avoid spaces between the array name and square brackets when accessing multi-dimensional array elements?",
+		"answer": "While JavaScript can process spaces correctly, using spaces between the array name and square brackets (e.g., 'array [0][0]') or even 'array [0] [0]' can confuse other programmers reading your code. To ensure clarity, it's recommended to write it as 'array[0][0]' for easy comprehension."
+	},
+	{
+		"question": "How can you append data to the end of an array?",
+		"answer": "You can use the push() function. The push() function takes one or more parameters and adds them to the end of the array."
+	},
+	{
+		"question": "What is the purpose of the push() function?",
+		"answer": "The push() function is used to add one or more elements to the end of an array."
+	},
+	{
+		"question": "Can you provide an example of using the push() function?",
+		"answer": "Certainly! Consider an array 'myArray' containing [1, 2, 3]. Using myArray.push(4) would result in myArray becoming [1, 2, 3, 4]."
+	},
+	{
+		"question": "What is a straightforward method for adding data to the end of an array?",
+		"answer": "You can easily add data to the end of an array using the push() function."
+	},
+	{
+		"question": "How does the push() function work?",
+		"answer": ".push() accepts one or more parameters and adds them to the end of the array, effectively extending the array's length."
+	},
+	{
+		"question": "Could you provide an example of using the push() function?",
+		"answer": "Certainly! Let's say you have an array called 'myArray' with values [1, 2, 3]. By using myArray.push(4), the array will become [1, 2, 3, 4]."
+	},
+	{
+		"question": "How can you modify the data in an array using the .pop() function?",
+		"answer": "The .pop() function is used to remove a value from the end of an array. The removed value can be stored in a variable. Essentially, .pop() takes out the last element from an array and returns that element."
+	},
+	{
+		"question": "What does the .pop() function do?",
+		"answer": ".pop() removes the last element of an array and returns the removed element. This can be any type of entry, including numbers, strings, and even nested arrays."
+	},
+	{
+		"question": "Could you provide an example of using the .pop() function?",
+		"answer": "Certainly! Let's assume you have an array 'myArray' with values [1, 2, 3]. After using 'poppedValue = myArray.pop()', 'myArray' will become [1, 2], and 'poppedValue' will hold the value 3."
+	},
+	{
+		"question": "How can you remove the first element of an array?",
+		"answer": "You can use the .shift() function. It removes the first element of an array, similar to how .pop() removes the last element."
+	},
+	{
+		"question": "What is the purpose of the .shift() function?",
+		"answer": ".shift() is used to remove the first element from an array. It behaves similarly to .pop(), but it removes the first element instead of the last."
+	},
+	{
+		"question": "Could you provide an example of using the .shift() function?",
+		"answer": "Certainly! Suppose you have an array 'myArray' with values [5, 10, 15]. By using 'shiftedValue = myArray.shift()', 'myArray' will become [10, 15], and 'shiftedValue' will hold the value 5."
+	},
+	{
+		"question": "How can you add elements to the beginning of an array?",
+		"answer": "You can use the .unshift() function. It adds elements to the beginning of an array, similar to how .push() adds elements to the end."
+	},
+	{
+		"question": "What is the purpose of the .unshift() function?",
+		"answer": ".unshift() is used to add one or more elements to the beginning of an array. It's similar to .push(), but it adds elements at the start of the array."
+	},
+	{
+		"question": "What are functions used for in JavaScript?",
+		"answer": "Functions in JavaScript allow you to divide your code into reusable parts."
+	},
+	{
+		"question": "How do you invoke or call a JavaScript function?",
+		"answer": "To invoke a function, use its name followed by parentheses. For example, using 'functionName();' will call the function defined as 'function functionName() { ... }'."
+	},
+	{
+		"question": "What happens when a JavaScript function is called?",
+		"answer": "When a function is called, all the code inside its curly braces is executed. This allows you to perform specific actions or calculations."
+	},
+	{
+		"question": "What are parameters in relation to functions?",
+		"answer": "Parameters are variables that serve as placeholders for values to be input into a function when it's called."
+	},
+	{
+		"question": "When is a function typically defined with parameters?",
+		"answer": "A function is usually defined with parameters when you want to specify what kind of input values it should expect."
+	},
+	{
+		"question": "What is the role of arguments in functions?",
+		"answer": "Arguments are the actual values that are passed to a function when it's called. They correspond to the parameters defined in the function."
+	},
+	{
+		"question": "How can you pass values into a function?",
+		"answer": "Values can be passed into a function using arguments."
+	},
+	{
+		"question": "What is the purpose of the return statement in a function?",
+		"answer": "The return statement is used to send a value back out of a function."
+	},
+	{
+		"question": "What can you do with the value returned by a function?",
+		"answer": "The value returned by a function can be assigned to a variable, used in calculations, or used in other parts of your code."
+	},
+	{
+		"question": "What does the term \"scope\" refer to in JavaScript?",
+		"answer": "In JavaScript, \"scope\" pertains to the visibility of variables within different parts of the code. It defines where a variable can be accessed or modified."
+	},
+	{
+		"question": "What is the scope of variables defined outside of a function block?",
+		"answer": "Variables defined outside of a function block have a \"Global\" scope. This means they are accessible from anywhere within the JavaScript code."
+	},
+	{
+		"question": "What happens when variables are declared without using the `let` or `const` keywords?",
+		"answer": "Variables declared without `let` or `const` are automatically created in the global scope. This can lead to unintended consequences in other parts of the code or when a function is executed again."
+	},
+	{
+		"question": "Why is it recommended to use the `let` or `const` keywords when declaring variables?",
+		"answer": "Using the `let` or `const` keywords when declaring variables ensures that the variables are explicitly scoped. This prevents potential issues caused by accidentally polluting the global scope and helps avoid unexpected behaviors in the code."
+	},
+	{
+		"question": "What is the scope of variables declared within a function?",
+		"answer": "Variables which are declared within a function, as well as the function parameters, have local scope. That means they are only visible within that function."
+	},
+	{
+		"question": "What happens when you have both local and global variables with the same name?",
+		"answer": "When you have both local and global variables with the same name, the local variable takes precedence over the global variable."
+	},
+	{
+		"question": "Can a function include a return statement?",
+		"answer": "Yes, a function can include the return statement, but it is not mandatory."
+	},
+	{
+		"question": "What happens when a function doesn't have a return statement?",
+		"answer": "When a function doesn't have a return statement, calling the function processes its inner code, but the returned value is undefined."
+	},
+	{
+		"question": "How can the return value of a function be used in assignment?",
+		"answer": "The return value of a function can be assigned to a variable. This is because, as discussed previously, everything to the right of the equal sign is resolved before the value is assigned."
+	},
+
+]
