@@ -357,5 +357,115 @@
 		"question": "How can the return value of a function be used in assignment?",
 		"answer": "The return value of a function can be assigned to a variable. This is because, as discussed previously, everything to the right of the equal sign is resolved before the value is assigned."
 	},
+	{
+		"question": "What happens when you use a function's result in a variable?",
+		"answer": "Imagine you have a function that adds two numbers together. When you use this function and get an answer, that answer can be put into a special container (variable) using a magic symbol called the assignment operator."
+	},
 
+	{
+		"question": "What is the purpose of a queue in Computer Science?",
+		"answer": "In Computer Science, a queue is an abstract Data Structure where items are kept in order.  New items can be added at the back of the queue and old items are taken off from the front of the queue."
+	},
+	{
+		"question": "Can you describe the function 'nextInLine'?",
+		"answer": "'nextInLine' is a function that takes an array and a number. It adds the number to the end of the array and removes the first element from the front. Then, it gives you back the element that was removed."
+	},
+
+	{
+		"question": "In the context of arrays, what does the 'push' operation entail?",
+		"answer": "'Push' is an array operation that appends an element to the end of the array. It extends the array's length and places the new element at the back, preserving the order of existing elements."
+	},
+
+	{
+		"question": "What does the 'shift' operation do in the context of arrays?",
+		"answer": "The 'shift' operation is used to remove the first element from the beginning of an array. This action not only takes out the element but also adjusts the indices of the remaining elements, effectively shifting them all one position towards the start of the array."
+	},
+	{
+		"question": "In terms of array manipulation, how do 'push' and 'shift' operations differ?",
+		"answer": "'Push' and 'shift' are inverse operations. 'Push' increases the array's size by adding an element to the end, whereas 'shift' reduces the size by removing the first element and shifting the rest forward."
+	},
+	{
+		"question": "What are Boolean values and how do they work?",
+		"answer": "Boolean values are a data type that can only be either true or false. They act like simple on-off switches, where true represents 'on' and false represents 'off'. These two states are distinct and cannot both be true at the same time."
+	},
+	{
+		"question": "Why is it important to note that Boolean values are not written with quotes?",
+		"answer": "It's crucial to understand that Boolean values like true and false are not written with quotes because they are specific keywords in programming. The strings 'true' and 'false' are not the same as the actual Boolean values and do not have the same meaning in JavaScript."
+	},
+	{
+		"question": "How are 'if' statements used for decision making in code?",
+		"answer": "'if' statements are used to make decisions in code based on Boolean conditions. When the condition in the parentheses is true, the code inside the curly braces is executed. If the condition is false, the code inside the curly braces is skipped."
+	},
+	{
+		"question": "What does the equality operator in JavaScript do?",
+		"answer": "The equality operator (==) compares two values and returns true if they are equivalent, or false if they are not. It's important to note that equality is different from assignment (=), which is used to assign a value to a variable."
+	},
+	{
+		"question": "What is Type Coercion in JavaScript?",
+		"answer": "Type Coercion in JavaScript refers to the process of converting one data type to another in order to perform comparisons or operations. For instance, when comparing different data types like numbers and strings, JavaScript will automatically convert one type to match the other to facilitate the comparison."
+	},
+	{
+		"question": "What is the strict equality operator in JavaScript?",
+		"answer": "The strict equality operator (===) compares two values without performing type conversion. Unlike the regular equality operator (==), the strict equality operator considers values with different types as unequal."
+	},
+	{
+		"question": "What is the purpose of the strict equality operator in comparison operations?",
+		"answer": "The strict equality operator is used to compare values without any type conversion. It's useful when you want to make sure that values are not only equal in value but also of the same type."
+	},
+	{
+		"question": "What is the inequality operator in JavaScript?",
+		"answer": "The inequality operator (!=) is used to determine if two values are not equal. It returns false if the values are equal and true if they are not equal. Similar to the equality operator, the inequality operator also performs type conversion during comparison."
+	},
+	{
+		"question": "What is the purpose of the strict inequality operator in JavaScript?",
+		"answer": "The strict inequality operator (!==) is used to check if two values are not strictly equal. It returns false if the values are strictly equal and true if they are not strictly equal. Unlike the strict equality operator, the strict inequality operator does not perform type conversion."
+	},
+	{
+		"question": "What does the greater than operator (>) do in JavaScript?",
+		"answer": "The greater than operator (>) is used to compare the values of two numbers. If the number on the left is greater than the number on the right, the operator returns true. Otherwise, it returns false."
+	},
+	{
+		"question": "What is the purpose of the greater than or equal to operator (>=) in JavaScript?",
+		"answer": "The greater than or equal to operator (>=) is used to compare the values of two numbers. If the number on the left is greater than or equal to the number on the right, the operator returns true. Otherwise, it returns false."
+	},
+	{
+		"question": "What is the purpose of the less than operator (<) in JavaScript?",
+		"answer": "The less than operator (<) is used to compare the values of two numbers. If the number on the left is less than the number on the right, the operator returns true. Otherwise, it returns false."
+	},
+	{
+		"question": "What is the purpose of the less than or equal to operator (<=) in JavaScript?",
+		"answer": "The less than or equal to operator (<=) is used to compare the values of two numbers. If the number on the left is less than or equal to the number on the right, the operator returns true. Otherwise, it returns false."
+	},
+	{
+		"question": "What is the purpose of the logical 'and' operator (&&) in JavaScript?",
+		"answer": "The logical 'and' operator (&&) returns true if and only if both of its operands (values to the left and right) are true. It's used to combine multiple conditions into a single expression for more concise code."
+	},
+	{
+		"question": "How can the logical 'and' operator be used to replace nested 'if' statements?",
+		"answer": "You can replace nested 'if' statements with the logical 'and' operator to achieve the same effect with cleaner code. For example, 'if (num > 5 && num < 10)' achieves the same result as nesting 'if (num > 5)' and 'if (num < 10)' inside each other."
+	},
+	{
+		"question": "What is the purpose of the logical 'or' operator (||) in JavaScript?",
+		"answer": "The logical 'or' operator (||) returns true if at least one of its operands (values to the left and right) is true. If both operands are false, it returns false. It's used to combine conditions and make decisions based on multiple possibilities."
+	},
+	{
+		"question": "How can the logical 'or' operator be useful in making decisions?",
+		"answer": "The logical 'or' operator allows you to evaluate multiple conditions and make a decision based on any of them being true. It's useful when you want to consider different possibilities and take action if at least one of the conditions is met."
+	},
+	{
+		"question": "What is the purpose of an 'else' statement in JavaScript?",
+		"answer": "An 'else' statement is used to provide an alternative block of code that is executed when the condition of the preceding 'if' statement is false. It allows you to handle both the 'true' and 'false' outcomes of a condition."
+	},
+	{
+		"question": "How does an 'if/else' statement handle situations where the 'if' condition is false?",
+		"answer": "When the 'if' condition is false, the code within the 'else' block is executed. This allows you to provide an alternative action to take when the condition is not met."
+	},
+	{
+		"question": "How can multiple conditions be addressed using 'else if' statements in JavaScript?",
+		"answer": "Multiple conditions can be addressed using 'else if' statements, which allow you to chain together multiple checks sequentially. The code within the 'else if' block is executed only if the preceding conditions are false and the current condition is true."
+	},
+	{
+		"question": "How does the order of 'else if' statements matter?",
+		"answer": "The order of 'else if' statements matters because they are evaluated sequentially from top to bottom. The first 'else if' condition that evaluates to true will have its corresponding code executed, and subsequent 'else if' and 'else' blocks will be skipped."
+	}
 ]
